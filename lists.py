@@ -37,4 +37,31 @@ print(numbers.count(2))
 #Pop() This methods removes an element from the list at a specified position.
 list_num = [2,4,6,8,0,12,4,67,50]
 list_num.pop(0)
-print(list_num)
+
+#The reverse() method reverses the elements of the list.
+list_numx = [2,4,6,8,0,12,4,67,50]
+#print(list_numx)
+list_numx.reverse()
+#print(list_numx)
+
+#The sort() method sorts the elements of a given list in a specific ascending or descending order.
+
+list_num_sort = [2,4,6,8,0,12,4,67,50]
+print(list_num_sort)
+list_num_sort.sort(reverse=True) #Sorts it to the decendeing order
+print(list_num_sort)
+
+
+#The copy() method returns a shallow copy of the list.
+
+x = ['Chelsea','Arsenal','Man u','Liverpool']
+y = x.copy()
+
+print('The Copied List : ', y)
+
+#The clear() method removes all items from the list.
+
+xx = ['Chelsea','Arsenal','Man u','Liverpool']
+yx = xx.clear()
+
+print('The Copied List : ', yx)
