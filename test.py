@@ -3,6 +3,10 @@ import operator
 import itertools
 aList = [2,3,4,5,6,7]
 
+y = [i for i in aList]
+
+print(y)
+
 res = map(lambda x: x*2,aList)
 print(list(res))
 
