@@ -9,8 +9,10 @@ class Parrot:
         print(f"Singing a song {song}")
 
 
+
 obj = Parrot('Blu',23)
 print(obj.name)
 print(obj.species)
 print(obj.age)
+print(obj.sing('Happy'))
         

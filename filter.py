@@ -7,3 +7,5 @@ print(list(res))#[2, 4, 6]
 res1 = filter(lambda x:x%2!=0,aList)
 
 print(list(res1))
+
+filter()
